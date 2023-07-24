@@ -100,7 +100,3 @@ def detail_information(id_hotels: str, N: str) -> dict:
             break
 
     return hotels_info
-
-
-a = get_search_location(city='Los Angeles')
-print(a)
